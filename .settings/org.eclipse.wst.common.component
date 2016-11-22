@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ttidesktop">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="ttidesktopgui-widgetset.jar" deploy-path="/lib" handle="module:/resource/ttidesktopgui-widgetset/ttidesktopgui-widgetset">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ttidesktopgui-ui.war" deploy-path="/" handle="module:/resource/ttidesktopgui-ui/ttidesktopgui-ui">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ttidesktopcore.jar" deploy-path="/" handle="module:/resource/ttidesktopcore/ttidesktopcore">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
